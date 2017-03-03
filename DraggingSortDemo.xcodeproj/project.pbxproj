@@ -13,6 +13,8 @@
 		3A0EAAB91E680F3B0038177B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0EAAB71E680F3B0038177B /* Main.storyboard */; };
 		3A0EAABB1E680F3B0038177B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0EAABA1E680F3B0038177B /* Assets.xcassets */; };
 		3A0EAABE1E680F3B0038177B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0EAABC1E680F3B0038177B /* LaunchScreen.storyboard */; };
+		3A0EAAC71E680FE20038177B /* DraggingSortView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0EAAC61E680FE20038177B /* DraggingSortView.m */; };
+		3A2C8E541E69104000661204 /* UIView+GestureProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C8E531E69104000661204 /* UIView+GestureProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3A0EAABA1E680F3B0038177B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0EAABD1E680F3B0038177B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A0EAABF1E680F3B0038177B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0EAAC51E680FE20038177B /* DraggingSortView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggingSortView.h; sourceTree = "<group>"; };
+		3A0EAAC61E680FE20038177B /* DraggingSortView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggingSortView.m; sourceTree = "<group>"; };
+		3A2C8E521E69104000661204 /* UIView+GestureProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GestureProperty.h"; sourceTree = "<group>"; };
+		3A2C8E531E69104000661204 /* UIView+GestureProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GestureProperty.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				3A0EAAB21E680F3B0038177B /* AppDelegate.m */,
 				3A0EAAB41E680F3B0038177B /* ViewController.h */,
 				3A0EAAB51E680F3B0038177B /* ViewController.m */,
+				3A0EAAC51E680FE20038177B /* DraggingSortView.h */,
+				3A0EAAC61E680FE20038177B /* DraggingSortView.m */,
+				3A2C8E521E69104000661204 /* UIView+GestureProperty.h */,
+				3A2C8E531E69104000661204 /* UIView+GestureProperty.m */,
 				3A0EAAB71E680F3B0038177B /* Main.storyboard */,
 				3A0EAABA1E680F3B0038177B /* Assets.xcassets */,
 				3A0EAABC1E680F3B0038177B /* LaunchScreen.storyboard */,
@@ -152,8 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A0EAAB61E680F3B0038177B /* ViewController.m in Sources */,
+				3A2C8E541E69104000661204 /* UIView+GestureProperty.m in Sources */,
 				3A0EAAB31E680F3B0038177B /* AppDelegate.m in Sources */,
 				3A0EAAB01E680F3B0038177B /* main.m in Sources */,
+				3A0EAAC71E680FE20038177B /* DraggingSortView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +324,7 @@
 				3A0EAAC41E680F3B0038177B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
